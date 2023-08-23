@@ -1,0 +1,49 @@
+package com.Destination.BankingApplication.package1;
+
+import java.util.Scanner;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\\t\\t Welcome to Banking Application");
+		Scanner sc = new Scanner(System.in);
+		BankingApp ba =new BankingApp();
+		System.out.println("1. Register\n"
+				+"2. User Login\n"
+				+"3. Admin Login\n"
+				+"4. Quit\n");
+		System.out.println("Please Enter your Choice");
+		int choice=sc.nextInt();
+		switch (choice) {
+		case 1: {
+			System.out.println("Registration In Process");
+		}
+		case 2: {
+			System.out.println("Login  In Process");
+				}
+		case 3: {
+			Admin a= new Admin();
+			System.out.println("\n\tAdmin Login");
+			System.out.println("Enter the Admin ID: ");
+			a.setAmin_id(sc.nextInt());
+			System.out.println("Enter the Admin password: ");
+			a.setAmin_pwd(sc.next());
+			
+			boolean b =a.validate();
+			if (b==true) {
+				System.out.println("Admin Login Successful");	
+			}
+			else {
+				System.out.println("Admin Login Failed");	
+			}
+		}
+		case 4: {
+			System.out.println("Logout In Process");
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + choice);
+		}
+	}
+
+}

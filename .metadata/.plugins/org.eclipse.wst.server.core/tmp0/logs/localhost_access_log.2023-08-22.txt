@@ -1,0 +1,15 @@
+127.0.0.1 - - [22/Aug/2023:15:14:05 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:14:06 +0530] "GET /MyFirstServletProject/index.html HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:14:06 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:14:15 +0530] "GET /MyFirstServletProject/Program1?your_name=lal HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:14:27 +0530] "GET /MyFirstServletProject/Program1?your_name=lal HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:14:37 +0530] "GET /MyFirstServletProject/Program1?your_name=lal HTTP/1.1" 404 785
+127.0.0.1 - - [22/Aug/2023:15:16:23 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:16:23 +0530] "GET /MyFirstServletProject/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:16:28 +0530] "GET /MyFirstServletProject/Program1?your_name=lal HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:17:21 +0530] "GET /MyFirstServletProject/Program1?your_name=lal HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:31:31 +0530] "GET /MyFirstServletProject/index.html HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:31:38 +0530] "GET /MyFirstServletProject/program1?your_name=lav HTTP/1.1" 405 747
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:32:38 +0530] "GET /MyFirstServletProject/program1?your_name=lam HTTP/1.1" 405 747
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:33:16 +0530] "GET /MyFirstServletProject/index.html HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [22/Aug/2023:15:33:21 +0530] "GET /MyFirstServletProject/Program1?your_name=mom HTTP/1.1" 404 785

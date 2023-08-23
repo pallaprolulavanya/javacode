@@ -1,0 +1,9 @@
+package com.desti;
+
+import javax.servlet.http.HttpServlet;
+
+@webServlet("/Addition")
+
+public class Addition extends HttpServlet{
+
+}
